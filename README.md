@@ -25,3 +25,5 @@ This project showcases my ability to build end-to-end AI-powered systems, integr
 Overall, this project highlights my expertise in AI integration, live streaming, and full-stack engineering, making it a valuable addition to my portfolio and a strong talking point for recruiters or internships in AI, data engineering, or software development.
 
 
+
+
