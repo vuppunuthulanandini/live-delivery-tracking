@@ -23,7 +23,8 @@ Frontend visualization using Leaflet.js
 This project showcases my ability to build end-to-end AI-powered systems, integrating real-time data pipelines, full-stack development, and LLM capabilities. It is a scalable foundation that can be extended with features like multiple drivers, traffic prediction, dynamic routing, or enhanced LLM-powered notifications, making it a strong demonstration of both technical skill and creativity.
 
 Overall, this project highlights my expertise in AI integration, live streaming, and full-stack engineering, making it a valuable addition to my portfolio and a strong talking point for recruiters or internships in AI, data engineering, or software development.
-"C:\Users\Admin\Pictures\Screenshots\Screenshot (155).png"
+
+
 
 
 
