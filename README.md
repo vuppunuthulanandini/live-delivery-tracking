@@ -23,4 +23,41 @@ Frontend visualization using Leaflet.js
 This project showcases my ability to build end-to-end AI-powered systems, integrating real-time data pipelines, full-stack development, and LLM capabilities. It is a scalable foundation that can be extended with features like multiple drivers, traffic prediction, dynamic routing, or enhanced LLM-powered notifications, making it a strong demonstration of both technical skill and creativity.
 
 Overall, this project highlights my expertise in AI integration, live streaming, and full-stack engineering, making it a valuable addition to my portfolio and a strong talking point for recruiters or internships in AI, data engineering, or software development.
+this is the project structure:
+live_delivery_project/
+│
+├── backend/
+│   ├── app.py                 # Main Flask/FastAPI app (API routes)
+│   ├── db.py                  # Database connection & queries
+│   ├── eta.py                 # ETA calculation logic
+│   ├── llm.py                 # AI / LLM based response or prediction logic
+│   ├── config.py              # App configuration (DB path, secrets)
+│   ├── requirements.txt       # Backend dependencies
+│   ├── .env                   # Environment variables (DO NOT PUSH)
+│   │
+│   ├── templates/
+│   │   └── map.html            # Live map UI (delivery tracking)
+│   │
+│   └── __pycache__/            # Auto-generated (DO NOT PUSH)
+│
+├── driver_simulator/
+│   └── driver.py               # Simulates delivery agent GPS updates
+│
+├── database/
+│   ├── delivery.db             # SQLite database (optional to push)
+│   └── schema.sql              # DB schema (tables)
+│
+├── docs/
+│   ├── api_flow.md             # API flow explanation
+│   ├── architecture.md         # System design
+│
+├── tests/
+│   ├── test_eta.py
+│   └── test_api.py
+│
+├── .gitignore                  # Ignore env, pycache, db
+├── README.md                   # Project overview (VERY IMPORTANT)
+└── run.sh / run.bat             # Start script
+
+
 
