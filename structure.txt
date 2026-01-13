@@ -1,0 +1,30 @@
+live_delivery_project/
+│
+├── backend/
+│   ├── app.py                  # Flask app – main server
+│   ├── db.py                   # Database connection & storage logic
+│   ├── eta.py                  # ETA calculation using distance & speed
+│   ├── llm.py                  # Converts ETA into human-readable messages
+│   ├── .env                    # Environment variables (API keys, configs)
+│   │
+│   ├── templates/
+│   │   └── map.html             # Live map UI showing driver movement
+│   │
+│   └── __pycache__/             # Python cache files (auto-generated)
+│
+├── driver_simulator/
+│   └── driver.py                # Simulates real-time driver GPS updates
+│
+├── database/
+│   ├── delivery.db              # SQLite database (live driver data)
+│   └── delivery.db.txt          # Readable DB dump / backup
+│
+├── screenshots/                 # Screenshots for README (you add this)
+│   ├── map_view.png
+│   ├── eta_output.png
+│
+├── requirements.txt             # Project dependencies
+│
+├── README.md                    # Project documentation
+│
+└── .gitignore                   # Files/folders to ignore in GitHub
